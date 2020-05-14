@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         drumButton.setImage(UIImage(named: "drumImage"), for: .normal)
     }
     
+    
     @IBAction func touchDownPianoButton(){
         pianoButton.setImage(UIImage(named: "pianoPlayingImage"), for: .normal)
         pianoSoundPlayer.currentTime = 0
@@ -42,9 +43,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func touchUpPianoButton(){
-        drumButton.setImage(UIImage(named: "pianoImage"), for: .normal)
+        pianoButton.setImage(UIImage(named: "pianoImage"), for: .normal)
     }
   
+   
     @IBAction func touchDownGuitarButton(){
         guitarButton.setImage(UIImage(named: "guitarPlayingImage"), for: .normal)
         guitarSoundPlayer.currentTime = 0

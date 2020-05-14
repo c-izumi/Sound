@@ -22,24 +22,24 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="284"/>
                                         <state key="normal" image="drumImage"/>
                                         <connections>
-                                            <action selector="touchDownDrumButton" destination="BYZ-38-t0r" eventType="touchDown" id="7Qm-1z-yYs"/>
-                                            <action selector="touchUpDrumButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="8e0-nC-ID9"/>
+                                            <action selector="touchDownDrumButton" destination="BYZ-38-t0r" eventType="touchDown" id="Pij-fP-6hd"/>
+                                            <action selector="touchUpDrumButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="aFY-j4-OdI"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvR-06-EYa">
                                         <rect key="frame" x="0.0" y="284" width="414" height="284"/>
                                         <state key="normal" image="pianoImage"/>
                                         <connections>
-                                            <action selector="touchDownPianoButton" destination="BYZ-38-t0r" eventType="touchDown" id="GCM-Vl-Y7k"/>
-                                            <action selector="touchUpPianoButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="b1A-lH-0IM"/>
+                                            <action selector="touchDownPianoButton" destination="BYZ-38-t0r" eventType="touchDown" id="Zr1-4G-2D1"/>
+                                            <action selector="touchUpPianoButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULT-GP-5c4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wB7-YT-eMh">
                                         <rect key="frame" x="0.0" y="568" width="414" height="284"/>
                                         <state key="normal" image="guitarImage"/>
                                         <connections>
-                                            <action selector="touchDownGuitarButton" destination="BYZ-38-t0r" eventType="touchDown" id="H2c-BD-ppt"/>
-                                            <action selector="touchUpGuitarButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="13m-FT-k5y"/>
+                                            <action selector="touchDownGuitarButton" destination="BYZ-38-t0r" eventType="touchDown" id="dTY-vl-hje"/>
+                                            <action selector="touchUpGuitarButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="lO5-v8-HQH"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -55,9 +55,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="drumButton" destination="opF-PV-Bra" id="GYz-NP-adW"/>
-                        <outlet property="guitarButton" destination="wB7-YT-eMh" id="duu-EN-Rtt"/>
-                        <outlet property="pianoButton" destination="uvR-06-EYa" id="knI-nE-Hkx"/>
+                        <outlet property="drumButton" destination="opF-PV-Bra" id="T3k-pk-I35"/>
+                        <outlet property="guitarButton" destination="wB7-YT-eMh" id="fDL-0m-Oyi"/>
+                        <outlet property="pianoButton" destination="uvR-06-EYa" id="OpY-j5-a5I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
